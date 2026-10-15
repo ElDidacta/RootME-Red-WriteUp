@@ -52,6 +52,9 @@ Al abrirse la ventana emergente, se interceptaron en texto claro las credenciale
 
 <img width="1210" height="867" alt="image" src="https://github.com/user-attachments/assets/2a6bfa62-c845-43d7-88cf-383ab8fac4f4" />
 
+
+<img width="667" height="757" alt="image" src="https://github.com/user-attachments/assets/2fd780b3-7973-4a22-a831-787c20a69690" />
+
 ---
 
 ## 🛡️ Solución de Ingeniería Aplicada y Remediación (Caso Corporativo)
