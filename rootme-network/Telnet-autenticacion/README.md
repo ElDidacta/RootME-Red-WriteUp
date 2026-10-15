@@ -64,7 +64,7 @@ Para mitigar esta falta de seguridad de raíz y blindar la administración remot
 ### 1. Desmantelamiento del Demonio Inseguro
 Se dicta la prohibición total del protocolo Telnet (puerto 23) para cualquier tarea de gestión de infraestructura corporativa, procediendo a su apagado absoluto en los sistemas operativos y equipos perimetrales.
 
-### 2. Endurecimiento Perimetral en RouterOS (Perfil MTCNA / MTCSE)
+### 2. Endurecimiento Perimetral en RouterOS para evitar que sea un acceso y realicen pivoting y comprometan toda la red. 
 Se aplican políticas restrictivas a nivel de hardware en los routers **MikroTik** de la empresa para deshabilitar el servicio nativo inseguro y forzar el uso exclusivo de consolas cifradas mediante criptografía asimétrica robusta (**SSH - Puerto 22**):
 
 ```cmd
