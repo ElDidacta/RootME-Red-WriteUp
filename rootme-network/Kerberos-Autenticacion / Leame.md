@@ -10,7 +10,9 @@ Este laboratorio de **Root-Me** se enfoca en el análisis de un flujo de autenti
 1. **Inspección inicial**: Al abrir el archivo `.pcapng` en Wireshark, filtramos o visualizamos los paquetes con protocolo `KRB5` para identificar las peticiones de autenticación inicial:
    - `AS-REQ` y `AS-REP` (Intercambio inicial entre el cliente y el KDC).
 
-   ![Flujo de paquetes Kerberos en Wireshark](ruta_a_tu_imagen_wireshark_1.png)
+ <img width="1312" height="597" alt="image" src="https://github.com/user-attachments/assets/b2759f03-8ea4-4a40-9cf8-8d86193c7a34" />
+
+
 
 2. **Extracción de datos del paquete AS-REQ (`Frame 60`)**:
    - Analizamos la estructura donde se envía el `PA-ENC-TIMESTAMP` cifrado.
@@ -18,7 +20,12 @@ Este laboratorio de **Root-Me** se enfoca en el análisis de un flujo de autenti
    - **Dominio**: `CATCORP.LOCAL`[cite: 3]
    - **Tipo de cifrado**: `ETYPE-AES256-CTS-HMAC-SHA1-96` (Etype 18)[cite: 2, 3].
 
-   ![Detalle del paquete AS-REQ y estructura cname/sname](ruta_a_tu_imagen_wireshark_2.png)
+<img width="1877" height="1032" alt="image" src="https://github.com/user-attachments/assets/135ca5d5-3969-4202-99fa-c80b0d90f104" />
+
+---
+
+<img width="1297" height="696" alt="image" src="https://github.com/user-attachments/assets/f1c6c99c-b07e-4c08-8607-15d8fdfdcf31" />
+
 
 ---
 
@@ -29,3 +36,7 @@ Una vez extraído el hash del tráfico capturado, procedimos a realizar un ataqu
 1. **Comando ejecutado**:
    ```bash
    hashcat -m 19900 rootme.txt -a 0 /home/kali/rockyou.txt
+
+<img width="955" height="970" alt="image" src="https://github.com/user-attachments/assets/4fd0dd60-d12d-4d07-8c18-3613bf7fec0b" />
+
+   
