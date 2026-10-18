@@ -5,6 +5,10 @@ Este laboratorio de **Root-Me** se enfoca en el análisis de un flujo de autenti
 
 ---
 
+<img width="835" height="837" alt="image" src="https://github.com/user-attachments/assets/3a306ab4-c483-4523-b712-2c520afde2b9" />
+
+---
+
 ## 1. Análisis de Tráfico (Wireshark)
 
 1. **Inspección inicial**: Al abrir el archivo `.pcapng` en Wireshark, filtramos o visualizamos los paquetes con protocolo `KRB5` para identificar las peticiones de autenticación inicial:
@@ -39,4 +43,7 @@ Una vez extraído el hash del tráfico capturado, procedimos a realizar un ataqu
 
 <img width="955" height="970" alt="image" src="https://github.com/user-attachments/assets/4fd0dd60-d12d-4d07-8c18-3613bf7fec0b" />
 
-   
+---
+
+<img width="827" height="802" alt="Captura de pantalla 2026-10-18 204736" src="https://github.com/user-attachments/assets/ab1e2dee-7094-4f87-af35-0505263b7317" />
+
