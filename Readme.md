@@ -1,7 +1,7 @@
 # RootME-Red-WriteUp 🛡️🌐
 
-![Cybersecurity](https://shields.io)
-![Protocol Audit](https://shields.io)
+<img width="1892" height="367" alt="image" src="https://github.com/user-attachments/assets/feb90268-b624-46db-96a6-c84268be2c7e" />
+
 
 Laboratorios prácticos y documentación técnica de **análisis forense de red**, **inspección profunda de paquetes (PCAP)** y **auditoría de protocolos** para la mitigación de riesgos e incidentes en infraestructuras corporativas distribuidas.
 
