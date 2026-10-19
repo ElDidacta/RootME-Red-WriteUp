@@ -18,6 +18,7 @@ Durante los análisis y auditorías se emplean las siguientes herramientas del e
 * **Zeek (Bro) / Suricata** - Análisis de tráfico a gran escala y sistemas de detección de intrusos (IDS).
 * **NetworkMiner** - Análisis forense de red pasivo y extracción de artefactos.
 * **Scapy** - Manipulación y creación personalizada de paquetes de red.
+* **hashcat** - Software de línea de comandos diseñada para la recuperación y el descifrado de contraseñas a partir de sus valores has.
 
 ## 📁 Estructura del Proyecto
 
